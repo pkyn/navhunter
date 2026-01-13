@@ -1,0 +1,4 @@
+{
+  "name": "NavHunter",
+  "description": "An AI-powered website navigation analyzer that retrieves navigation links and identifies third-party connections using Google Gemini Search Grounding."
+}
