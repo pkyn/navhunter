@@ -47,8 +47,8 @@ const parseJsonResponse = (text: string): { links: NavigationLink[], summary: st
   }
 };
 
-export const analyzeWebsiteNav = async (url: string): Promise<AnalysisResult> => {	
-  const apiKey = "yourkey"; // process.env.API_KEY;
+export const analyzeWebsiteNav = async (url: string): Promise<AnalysisResult> => {
+  const apiKey = process.env.API_KEY;
   if (!apiKey) {
     throw new Error("API Key is missing.");
   }
